@@ -1,0 +1,27 @@
+.section {
+  padding: 16px;
+
+  h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .question {
+    font-size: 20px;
+  }
+
+  .answer {
+   p {
+     margin-top: 4px;
+     margin-bottom: 10px;
+   } 
+  }
+
+  a {
+    text-decoration: none;
+    background-color: #727271;
+    padding: 8px;
+    border-radius: 0px;
+    color: #fff;
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .header {
+    height: 50px;
+    border-bottom: 1px solid #727271;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #727271;
+    color: #ffffff;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+  }
+
+  .container {
+    flex-grow: 1;
+    min-width: 0;
+    min-height: 0;
+  }
+}
